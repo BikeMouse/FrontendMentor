@@ -65,14 +65,15 @@ li a{
 
 .introContainer{
     position: relative;
-    height: 70%;
-    width: 30%;
-    bottom: 180%;
-    border: 5px solid green;
+    height: 85%;
+    width: 25%;
+    bottom: 195%;
+    left: 78%;
 }
 
 .intro{
     height: 100%;
+    width:fit-content;
 }
 h1{
     font-family: 'DM Serif Display';
