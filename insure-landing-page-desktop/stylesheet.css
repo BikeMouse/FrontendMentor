@@ -103,3 +103,16 @@ h1{
     width: 50%;
     padding: 50px 11%;
 }
+
+.different{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20%;
+    border: 5px solid red;
+}
+
+.different > h2{
+    display: block;
+    width: 100%;
+    border: 5px solid orange;
+}
