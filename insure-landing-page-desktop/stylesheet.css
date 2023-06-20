@@ -53,11 +53,10 @@ li a{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10%;
-    left: 50%;
-    height: 80%;
-    width: 24%;
-    border: 5px solid orange;
+    bottom:70%;
+    left: 45%;
+    width: 60%;
+    height: 100%;
 }
 
 .people{
@@ -66,14 +65,19 @@ li a{
 
 .introContainer{
     position: relative;
-    height: 80%;
+    height: 70%;
     width: 30%;
+    bottom: 180%;
     border: 5px solid green;
+}
+
+.intro{
+    height: 100%;
 }
 h1{
     font-family: 'DM Serif Display';
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.6rem;
     width: 50%;
     letter-spacing: 0.09em;
 }
