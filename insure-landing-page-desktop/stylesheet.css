@@ -112,7 +112,7 @@ h1{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20%;
-    height: 500px;
+    height: 600px;
     border: 5px solid green;
 }
 
@@ -141,7 +141,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 110%;
+    width: 100%;
     height: 500px;
     padding-top: 1%;
 }
@@ -160,5 +160,57 @@ h1{
 .howwe{
     background-color: hsl(256, 26%, 20%);
     color: white;
+    height: 250px;
+    width: 100%;
+    margin-top: 10%;
     border: 5px solid orange;
+}
+
+.swirl{
+    position: relative;
+    height: 85%;
+    width: 25%;
+    bottom: 195%;
+    left: -13%;
+}
+
+.swirls{
+    height: 100%;
+    width:fit-content;
+}
+
+.work{
+    display: flex;
+    border: 5px solid red;
+}
+
+.work > span{
+    color: red;
+    font-family: 'Karla';
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.work > h2{
+    color: red;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 2.6rem;
+    width: 50%;
+    letter-spacing: 0.09em;
+}
+
+.foot{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.flexfoot1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexfoot2{
+    display: flex;
+    justify-content: space-between;
 }
