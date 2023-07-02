@@ -118,7 +118,7 @@ h1{
 
 .middle > h2{
     font-family: 'DM Serif Display';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2.6rem;
     width: 50%;
     letter-spacing: 0.09em;
@@ -133,7 +133,7 @@ h1{
     position: relative;
     height: 85%;
     width: 25%;
-    bottom: 195%;
+    bottom: 202%;
     left: -13%;
 }
 
@@ -154,10 +154,14 @@ h1{
 
 .headings{
     font-family: 'DM Serif Display';
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .howwe{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
     background-color: hsl(256, 26%, 20%);
     color: white;
     height: 250px;
@@ -179,30 +183,26 @@ h1{
     width:fit-content;
 }
 
-.work{
-    display: flex;
-    border: 5px solid red;
-}
-
-.work > span{
-    color: red;
-    font-family: 'Karla';
+.howwe > span{
+    color: white;
     border: 2px solid white;
     text-transform: uppercase;
-    padding: 10px 20px;
+    line-height: 100%;
+    padding: 1%;
 }
 
-.work > h2{
-    color: red;
+.howwe > h2{
+    color: white;
     font-family: 'DM Serif Display';
     font-weight: 400;
-    font-size: 2.6rem;
-    width: 50%;
-    letter-spacing: 0.09em;
+    font-size: 2rem;
+    line-height: 100%;
+    border: 5px solid lawngreen;
 }
 
 .foot{
     background-color: hsl(0, 0%, 98%);
+    padding-top: 6%;
 }
 
 .flexfoot1{
