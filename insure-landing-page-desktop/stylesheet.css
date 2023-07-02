@@ -84,7 +84,6 @@ h1{
 
 .text1 > p{
     width: 90%;
-    font-family: 'Karla';
     letter-spacing: 0.09em;
     line-height: 32px;
 }
@@ -109,7 +108,10 @@ h1{
 .middle{
     display: flex;
     flex-direction: column;
-    padding: 10% 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
     height: 500px;
     border: 5px solid green;
 }
@@ -120,7 +122,7 @@ h1{
     font-size: 2.6rem;
     width: 50%;
     letter-spacing: 0.09em;
-    border: 5px solid orange;
+    padding-top: 10%;
 }
 
 .bg{
@@ -132,14 +134,31 @@ h1{
     height: 85%;
     width: 25%;
     bottom: 195%;
-    left: 78%;
-    border: 5px solid blue;
+    left: -13%;
 }
 
 .bullets{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 110%;
     height: 500px;
-    padding-top: 10%;
-    border: 5px solid red;
+    padding-top: 1%;
+}
+
+.words{
+    width: 95%;
+    line-height: 32px;
+    color: gray;
+}
+
+.headings{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+}
+
+.howwe{
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border: 5px solid orange;
 }
