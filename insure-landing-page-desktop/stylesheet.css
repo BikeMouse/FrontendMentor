@@ -84,12 +84,14 @@ h1{
 
 .text1 > p{
     width: 90%;
+    font-family: 'Karla';
     letter-spacing: 0.09em;
     line-height: 32px;
 }
 
 .text1 > span{
     color: white;
+    font-family: 'Karla';
     border: 2px solid white;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -104,15 +106,40 @@ h1{
     padding: 50px 11%;
 }
 
-.different{
+.middle{
     display: flex;
-    flex-direction: row;
-    padding-top: 20%;
-    border: 5px solid red;
+    flex-direction: column;
+    padding: 10% 10%;
+    height: 500px;
+    border: 5px solid green;
 }
 
-.different > h2{
-    display: block;
-    width: 100%;
+.middle > h2{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 2.6rem;
+    width: 50%;
+    letter-spacing: 0.09em;
     border: 5px solid orange;
+}
+
+.bg{
+    height: 100%;
+    width:fit-content;
+}
+.bgContainer{
+    position: relative;
+    height: 85%;
+    width: 25%;
+    bottom: 195%;
+    left: 78%;
+    border: 5px solid blue;
+}
+
+.bullets{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    padding-top: 10%;
+    border: 5px solid red;
 }
