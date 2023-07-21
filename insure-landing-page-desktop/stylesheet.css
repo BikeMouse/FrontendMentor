@@ -84,6 +84,7 @@ h1{
 
 .text1 > p{
     width: 90%;
+    font-size: 1rem;
     letter-spacing: 0.09em;
     line-height: 32px;
 }
@@ -91,6 +92,7 @@ h1{
 .text1 > span{
     color: white;
     font-family: 'Karla';
+    font-size: 1rem;
     border: 2px solid white;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -147,6 +149,7 @@ h1{
 
 .words{
     width: 95%;
+    font-size: 1rem;
     line-height: 32px;
     color: gray;
 }
@@ -192,11 +195,11 @@ h1{
 
 .el > span{
     color: white;
+    font-size: 1rem;
     border: 2px solid white;
     text-transform: uppercase;
     line-height: 100%;
     padding: 1.5%;
-    border: 5px solid white;
 }
 
 .el > h2{
@@ -217,9 +220,24 @@ h1{
 .flexfoot1{
     display: flex;
     justify-content: space-between;
+    border: 5px solid red;
 }
 
 .flexfoot2{
     display: flex;
     justify-content: space-between;
+    border: 5px solid blue;
+}
+
+.flexp{
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.flexh{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
