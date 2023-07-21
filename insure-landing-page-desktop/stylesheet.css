@@ -113,7 +113,6 @@ h1{
     padding-right: 10%;
     padding-bottom: 20%;
     height: 600px;
-    border: 5px solid green;
 }
 
 .middle > h2{
@@ -160,34 +159,35 @@ h1{
 
 .howwe{
     display: flex;
-    align-items:center;
     justify-content: space-between;
+    align-items: center;
     background-color: hsl(256, 26%, 20%);
     color: white;
     height: 250px;
     width: 100%;
     margin-top: 10%;
-    border: 5px solid orange;
 }
 
 .swirl{
     position: relative;
     height: 85%;
     width: 25%;
-    bottom: 195%;
-    left: -13%;
+    bottom: 5%;
+    left: 56%;
 }
 
 .swirls{
-    height: 100%;
-    width: fit-content;
-    border: 5px solid red;
+    height: 114%;
+    width: 220%;
 }
 
 .el{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    width: 100%;
+    right: 15%;
 }
 
 .el > span{
@@ -204,14 +204,14 @@ h1{
     font-family: 'DM Serif Display';
     font-weight: 400;
     font-size: 2.6rem;
-    width: 38%;
+    width: 48%;
     letter-spacing: 0.09em;
-    border: 5px solid lawngreen;
 }
 
 .foot{
     background-color: hsl(0, 0%, 98%);
     padding-top: 6%;
+    margin-top: 10%;
 }
 
 .flexfoot1{
