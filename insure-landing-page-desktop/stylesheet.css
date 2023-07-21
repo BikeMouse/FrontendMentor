@@ -213,20 +213,29 @@ h1{
 
 .foot{
     background-color: hsl(0, 0%, 98%);
-    padding-top: 6%;
     margin-top: 10%;
 }
 
 .flexfoot1{
     display: flex;
     justify-content: space-between;
-    border: 5px solid red;
+    padding: 3%;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.logos > img{
+    height: 120%;
 }
 
 .flexfoot2{
     display: flex;
     justify-content: space-between;
-    border: 5px solid blue;
+    padding: 3%;
 }
 
 .flexp{
